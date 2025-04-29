@@ -8,14 +8,14 @@ const projects = [
     name: "MegaBlog Website",
     year: "March 2025",
     align: "right",
-    image: "public\images\web1.png",
+    image: "images\web1.png",
     link: "#",
   },
   {
     name: "TODO List",
     year: "March 2025",
     align: "left",
-    image: "/images/Screenshot2025-03-01at12.23.25PM.png",
+    image: "images\web2.png",
     link: "#",
   },
 
