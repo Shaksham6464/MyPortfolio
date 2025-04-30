@@ -1,6 +1,8 @@
- HEAD
+![image](https://github.com/user-attachments/assets/4ff3ab2f-5944-462a-a69b-015355ef4a88) HEAD
 # React + Vite
-![alt text](image-1.png)
+
+![portfolio](https://github.com/user-attachments/assets/35f40fd3-afe2-4fe6-921c-f22d74a9e26a)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Steps for the creating this website:
