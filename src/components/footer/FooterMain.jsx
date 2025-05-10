@@ -21,10 +21,10 @@ const FooterMain = () => {
   ];
   return (
     <div className="px-4">
-      <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
+      <div className="w-full h-[1px] bg-black mt-24"></div>
       <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden">
-        <p className="text-3xl text-lightGrey ">Shaksham</p>
-        <ul className="flex gap-4 text-lightGrey text-xl">
+        <p className="text-3xl text-black ">Shaksham</p>
+        <ul className="flex gap-4 text-black text-xl">
           {footerLinks.map((item, index) => {
             return (
               <li key={index}>
@@ -43,7 +43,7 @@ const FooterMain = () => {
           })}
         </ul>
       </div>
-      <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
+      <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-">
         © 2025 Shakshamshahi | All Rights Reserved.
       </p>
     </div>

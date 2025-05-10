@@ -8,15 +8,15 @@ const projects = [
     name: "MegaBlog Website",
     year: "March 2025",
     align: "right",
-    image: "images\web1.png",
-    link: "#",
+    image: "images/web1.png",
+    link: "https://github.com/Shaksham6464/MegaBlog.git",
   },
   {
     name: "TODO List",
     year: "March 2025",
     align: "left",
-    image: "images\web2.png",
-    link: "#",
+    image: "images/web2.png",
+    link: "https://github.com/Shaksham6464/TodoList.git",
   },
 
  
@@ -33,7 +33,7 @@ const ProjectsMain = () => {
       >
         <ProjectsText />
       </motion.div>
-      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
+      <div className="flex flex-col gap-20 max-w-[600px] mx-auto mt-12">
         {projects.map((project, index) => {
           return (
             <SingleProject

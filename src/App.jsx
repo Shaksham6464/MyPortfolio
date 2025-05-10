@@ -12,7 +12,7 @@ import SubHeroMain from "./components/subHeroSection/SubHeroMain";
 import React from "react";
 function App() {
   return (
-    <main className="font-body text-black relative overflow-hidden">
+    <main className="font-body bg-amber-200 text-black relative overflow-hidden">
       <NavbarMain />
       <HeroMain />
       <HeroGradient />

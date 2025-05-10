@@ -54,7 +54,7 @@ const skills = [
     icon: SiPython,
   },
   {
-    skills: "C ",
+    skills: "C",
     icon: FaC,
   },
   {

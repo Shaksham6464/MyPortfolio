@@ -19,8 +19,8 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-        publicKey: "I6HAT5mUZH7WHabGE",
+      .sendForm("service_o0fjpln", "template_ohoa18o", form.current, {
+        publicKey: "t3Jb4-E-vQKG_dyL3",
       })
       .then(
         () => {
@@ -37,8 +37,8 @@ const ContactForm = () => {
 
   return (
     <div>
-      <p className="text-cyan">{success}</p>
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
+      <p className="text-black">{success}</p>
+      <form className="flex flex-col gap-4" ref={form} onSubmit={sendEmail} >
         <input
           type="text"
           name="from_name"
@@ -48,6 +48,7 @@ const ContactForm = () => {
           value={name}
           onChange={handleName}
         />
+        
         <input
           type="email"
           name="from_email"
@@ -58,7 +59,7 @@ const ContactForm = () => {
           onChange={handleEmail}
         />
         <textarea
-          type="text"
+          
           name="message"
           rows="9"
           cols="50"
