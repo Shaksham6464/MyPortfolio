@@ -5,19 +5,28 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
+    name: "Kanban board",
+    year: "June 2025",
+    align: "left",
+    image: "public/Kanban.png",
+    link: "https://github.com/Shaksham6464/Kanban.git",
+  },
+  {
+    name: "Admin Dashboard",
+    year: "May 2025",
+    align: "right",
+    image: "images/dashboard.png",
+    link: "https://github.com/Shaksham6464/AdminDashboard.git",
+  },
+  {
     name: "MegaBlog Website",
     year: "March 2025",
-    align: "right",
+    align: "left",
     image: "images/web1.png",
     link: "https://github.com/Shaksham6464/MegaBlog.git",
   },
-  {
-    name: "TODO List",
-    year: "March 2025",
-    align: "left",
-    image: "images/web2.png",
-    link: "https://github.com/Shaksham6464/TodoList.git",
-  },
+  
+ 
 
  
 ];
