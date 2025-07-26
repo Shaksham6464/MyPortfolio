@@ -8,7 +8,7 @@ const projects = [
     name: "Kanban board",
     year: "June 2025",
     align: "left",
-    image: "public/Kanban.png",
+    image: "images/Kanban.png",
     link: "https://github.com/Shaksham6464/Kanban.git",
   },
   {
